@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table-Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Div1 -->
+      <div class="heading">
+        <h1>M. Farhan Bashir</h1>
+        <h2>Table-Generator</h2>
+      </div>
+      <!-- DIV2 -->
+      <div class="table_head">
+        <input
+          type="number"
+          name="table"
+          id="inputNumber"
+          placeholder=" Number for Table"
+          autofocus
+        />
+        <br />
+        <br />
+        <!-- DIV3 -->
+        <div class="div_btn">
+          <button onclick="call()" class="btn">Generator</button>
+          <button class="btn ml" type="reset" onclick="reloadPage()">
+            RESET
+          </button>
+        </div>
+      </div>
+      <!-- DIV4 -->
+      <div id="table_footer"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
